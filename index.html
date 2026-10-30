@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cangjie Academy</title>
+<meta name="description" content="Learn the Cangjie programming language with lessons, runnable examples, randomized quizzes and a timed final exam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="brand" href="#home"><span class="seal">仓<br>颉</span><span><span class="brand-name">Cangjie Academy</span></span></a>
+  <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="rail">Lessons</button>
+</div>
+<div class="app">
+  <nav class="rail" id="rail" aria-label="Course">
+    <a class="brand" href="#home"><span class="seal">仓<br>颉</span><span><span class="brand-name">Cangjie Academy</span><br><span class="brand-sub">Cangjie 1.0 · lessons, quizzes, exam</span></span></a>
+    <div id="nav"></div>
+  </nav>
+  <main id="main"><div class="col"><p>Loading the course…</p></div></main>
+</div>
+<script src="assets/content.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
